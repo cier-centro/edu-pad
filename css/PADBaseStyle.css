@@ -1,0 +1,21 @@
+.pad-panel .main_container {
+    background: url(../img/img_background) white center center / cover;
+}
+
+.pad-panel .section_container .section_content {
+    min-height: 100%;
+}
+
+.pad-panel .pad-vertical-menu .menu li:first-child {
+    display: none;
+}
+
+.pad-panel .pad-footer {
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .pad-panel .section_container.no_left_sidebar .section_content {
+        width: 100% !important;
+    }
+}
