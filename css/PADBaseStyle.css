@@ -1,5 +1,5 @@
 .pad-panel .main_container {
-    background: url(../img/img_background) white center center / cover;
+    background: url(../img/img_background.gif) white center center / cover;
 }
 
 .pad-panel .section_container .section_content {
@@ -14,8 +14,27 @@
     padding: 0;
 }
 
+.pad-panel .digital-pilos-videos .view-content > * {
+    width: 31%;
+    float: left;
+    margin: 12px 0 12px 17px;
+    text-align: center;
+}
+
 @media (max-width: 767px) {
     .pad-panel .section_container.no_left_sidebar .section_content {
         width: 100% !important;
+    }
+
+    .pad-panel .digital-pilos-videos .view-content > * {
+        width: 75%;
+        margin: 15px 12.5%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .pad-panel .digital-pilos-videos .view-content > * {
+        width: 47%;
+        margin: 12px 0 12px 17px;
     }
 }
