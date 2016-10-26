@@ -27,6 +27,11 @@
     border-bottom-color: #ffe900 !important;
 }
 
+.pad-panel .main-menu .menu li .active {
+    color: #ffe900 !important;
+    font-weight: 600 !important;
+}
+
 .pad-panel .pad-vertical-menu .menu li:first-child {
     display: none;
 }
@@ -62,7 +67,7 @@
     .pad-panel .digital-teachers-videos .view-content > *,
     .pad-panel .expeticia-files .view-content > *  {
         width: 47%;
-        margin: 12px 0;
+        margin: 12px 0 12px 17px;
     }
 }
 
@@ -79,5 +84,9 @@
     .pad-panel .main-menu .menu > li {
         float: none !important;
         display: table-cell;
+    }
+
+    .pad-panel .main-menu .menu > li a {
+        padding: 0 15px 10px !important;
     }
 }
