@@ -14,7 +14,9 @@
     padding: 0;
 }
 
-.pad-panel .digital-pilos-videos .view-content > * {
+.pad-panel .digital-pilos-videos .view-content > *,
+.pad-panel .digital-teachers-videos .view-content > *,
+.pad-panel .expeticia-files .view-content > * {
     width: 31%;
     float: left;
     margin: 12px 0 12px 17px;
@@ -26,14 +28,18 @@
         width: 100% !important;
     }
 
-    .pad-panel .digital-pilos-videos .view-content > * {
+    .pad-panel .digital-pilos-videos .view-content > *,
+    .pad-panel .digital-teachers-videos .view-content > *,
+    .pad-panel .expeticia-files .view-content > *  {
         width: 75%;
         margin: 15px 12.5%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .pad-panel .digital-pilos-videos .view-content > * {
+    .pad-panel .digital-pilos-videos .view-content > *,
+    .pad-panel .digital-teachers-videos .view-content > *,
+    .pad-panel .expeticia-files .view-content > *  {
         width: 47%;
         margin: 12px 0 12px 17px;
     }
