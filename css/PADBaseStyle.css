@@ -10,6 +10,10 @@
     min-height: 100%;
 }
 
+.pad-panel .main-banner .view-content {
+    margin: 0 !important;
+}
+
 .pad-panel .main-menu {
     margin: 0 0 30px !important;
 }
@@ -18,7 +22,8 @@
     background-color: white;
 }
 
-.pad-panel .main-menu .menu {
+.pad-panel .main-menu .menu,
+.pad-panel .main-menu .menu li {
     border-bottom-color: #ffe900 !important;
 }
 
@@ -57,7 +62,7 @@
     .pad-panel .digital-teachers-videos .view-content > *,
     .pad-panel .expeticia-files .view-content > *  {
         width: 47%;
-        margin: 12px 0 12px 17px;
+        margin: 12px 0;
     }
 }
 
@@ -72,7 +77,7 @@
     }
 
     .pad-panel .main-menu .menu > li {
-        float: none;
+        float: none !important;
         display: table-cell;
     }
 }
