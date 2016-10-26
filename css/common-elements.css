@@ -67,14 +67,14 @@
 }
 /***MENÚ***/
 /*cuando todos los hijos del menú son iguales*/
-.pad-panel .main-menu > .pane-content > ul > li{
+/*.pad-panel .main-menu > .pane-content > ul > li{
 	width:25%;
   border-right: 2px solid rgba(255, 255, 255, 0.7);
   margin: 5px 0;
 }
 .pad-panel .main-menu > .pane-content > ul > li:last-child{
 	border-right: none;
-}
+}*/
 /*cuando el menú tiene difirentes tamaños para cada hijo*/
 /*
 .pad-panel .main-menu > .pane-content > ul > li:first-child{
@@ -94,17 +94,18 @@
 	width:16%;
 }
 */
-.pad-panel #microsite_panel .pane-menu, .pad-panel #microsite_panel .pane-menu > div .menu{
-	background-color: #8DB530;
+.pad-panel #microsite_panel .main-menu, .pad-panel #microsite_panel .main-menu > div .menu{
+	background-color: #5e3380 !important;
 	border-bottom: none;
 }
-.pad-panel .main-menu li a{
+.pad-panel .main-menu li a {
 	font-size: 17px !important;
-  font-weight: 600 !important;
-	color: #201150!important;
+  font-weight: 400 !important;
+	color: white !important;
 	border: none !important;
 	text-transform: inherit;
-	padding: 12px 16px 13px 16px !important
+	padding: 10px 15px !important;
+  text-decoration: underline;
 }
 .pad-panel .main-menu .pane-content ul li a{background:none;}
 .pad-panel .main-menu .pane-content ul li a:hover{

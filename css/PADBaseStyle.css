@@ -6,6 +6,14 @@
     min-height: 100%;
 }
 
+.pad-panel #microsite_panel .pane-menu {
+    margin: 0 !important;
+}
+
+.pad-panel .main-menu .pane-content {
+    background-color: white;
+}
+
 .pad-panel .pad-vertical-menu .menu li:first-child {
     display: none;
 }
@@ -42,5 +50,18 @@
     .pad-panel .expeticia-files .view-content > *  {
         width: 47%;
         margin: 12px 0 12px 17px;
+    }
+}
+
+@media (min-width: 851px) {
+    .pad-panel #microsite_panel .pane-menu > div .menu {
+        display: table;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .etdh-panel #microsite_panel .pane-menu > div .menu > li {
+        float: none;
+        display: table-cell;
     }
 }
