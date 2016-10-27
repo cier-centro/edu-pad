@@ -24,7 +24,8 @@
   font-weight: bold;
 }
 .pad-panel .content p{
-    margin:5px 10px 20px 10px!important;
+    margin:5px 15px 20px !important;
+    text-align: justify;
 }
 .pad-panel .content p a{text-decoration: underline;}
 .pad-panel .content .callout{

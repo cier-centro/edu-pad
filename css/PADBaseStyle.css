@@ -32,6 +32,32 @@
     font-weight: 600 !important;
 }
 
+.pad-panel .pad-news label,
+.pad-panel .pad-container label,
+.pad-panel .pad-news .news-content a {
+    color: #502280;
+    text-decoration: underline;
+}
+
+.pad-panel .pad-container label {
+    margin: 0 15px 30px !important;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+}
+
+.pad-panel .pad-news label {
+    margin: 0 0 5px 15px !important;
+    font-size: 18px;
+}
+
+.pad-panel .pad-news .news-content a {
+    font-weight: 600;
+    text-align: right;
+    display: block;
+    margin: 15px 0 0;
+}
+
 .pad-panel .pad-vertical-menu .menu li:first-child {
     display: none;
 }
