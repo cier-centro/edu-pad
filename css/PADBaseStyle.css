@@ -173,6 +173,27 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80e5d1', endColorstr='#45cbb3', GradientType=1 );
 }
 
+.pad-panel .digital-pilos-videos .views-field-title,
+.pad-panel .digital-teachers-videos .views-field-title,
+.pad-panel .expeticia-files .views-field-title,
+.pad-panel .expeticia-files .views-field-body-1 {
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.pad-panel .digital-pilos-videos .views-field-title,
+.pad-panel .digital-teachers-videos .views-field-title {
+    padding: 15px;
+}
+
+.pad-panel .digital-pilos-videos .views-field-body-1 .field-content,
+.pad-panel .digital-teachers-videos .views-field-body-1 .field-content,
+.pad-panel .expeticia-files .views-field-body .field-content {
+    font-size: 12px;
+    margin-top: 0 !important;
+}
+
 .pad-panel .digital-pilos-videos .view-content > *,
 .pad-panel .digital-teachers-videos .view-content > *,
 .pad-panel .expeticia-files .view-content > * {
