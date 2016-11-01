@@ -128,7 +128,8 @@
 }
 
 .pad-panel .digital-pilos-title,
-.pad-panel .digital-teachers-title {
+.pad-panel .digital-teachers-title,
+.pad-panel .experticia-files-title {
     margin-bottom: 20px;
 }
 
@@ -229,6 +230,10 @@
     color: #86858b;
 }
 
+.pad-panel .experticia-files .views-field-body .field-content p {
+    min-height: 35px;
+}
+
 .pad-panel .digital-pilos-videos .view-content > *,
 .pad-panel .digital-teachers-videos .view-content > *,
 .pad-panel .experticia-files .view-content > * {
@@ -237,8 +242,16 @@
     margin: 12px 0;
     text-align: center;
     padding: 0 1%;
-    height: 320px;
     border-right: 1px solid #86858b;
+}
+
+.pad-panel .digital-pilos-videos .view-content > *,
+.pad-panel .digital-teachers-videos .view-content > * {
+    height: 320px;
+}
+
+.pad-panel .experticia-files .view-content > * {
+    height: 340px;
 }
 
 .pad-panel .experticia-files .views-field-field-imagen-del-articulo {
@@ -251,6 +264,8 @@
     text-decoration: underline;
     font-weight: 700;
     font-size: 15px;
+    margin-top: 5px;
+    display: inline-block;
 }
 
 @media (max-width: 767px) {
@@ -271,9 +286,13 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .pad-panel .digital-pilos-videos .view-content > *,
     .pad-panel .digital-teachers-videos .view-content > *,
-    .pad-panel .experticia-files .view-content > *  {
+    .pad-panel .experticia-files .view-content > * {
         width: 50%;
         margin: 12px 0;
+    }
+
+    .pad-panel .digital-pilos-videos .view-content > *,
+    .pad-panel .digital-teachers-videos .view-content > * {
         height: 330px;
     }
 
