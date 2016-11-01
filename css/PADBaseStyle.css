@@ -213,6 +213,11 @@
     border-right: 1px solid #86858b;
 }
 
+.pad-panel .expeticia-files .views-field-field-imagen-del-articulo {
+    max-width: 180px;
+    margin: auto;
+}
+
 @media (max-width: 767px) {
     .pad-panel .section_container.no_left_sidebar .section_content {
         width: 100% !important;
@@ -224,6 +229,7 @@
         width: 75%;
         margin: 15px 12.5%;
         border: none;
+        height: auto;
     }
 }
 
