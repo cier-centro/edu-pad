@@ -185,6 +185,7 @@
 .pad-panel .digital-pilos-videos .views-field-title,
 .pad-panel .digital-teachers-videos .views-field-title {
     padding: 15px;
+    height: 75px;
 }
 
 .pad-panel .digital-pilos-videos .views-field-body-1 .field-content,
@@ -194,13 +195,22 @@
     margin-top: 0 !important;
 }
 
+.pad-panel .digital-pilos-videos .views-field-body-1 .field-content p,
+.pad-panel .digital-teachers-videos .views-field-body-1 .field-content p,
+.pad-panel .expeticia-files .views-field-body .field-content p {
+    color: #86858b;
+}
+
 .pad-panel .digital-pilos-videos .view-content > *,
 .pad-panel .digital-teachers-videos .view-content > *,
 .pad-panel .expeticia-files .view-content > * {
-    width: 31%;
+    width: 33.3%;
     float: left;
-    margin: 12px 0 12px 17px;
+    margin: 12px 0;
     text-align: center;
+    padding: 0 1%;
+    height: 320px;
+    border:right: 1px solid #86858b;
 }
 
 @media (max-width: 767px) {
@@ -220,8 +230,15 @@
     .pad-panel .digital-pilos-videos .view-content > *,
     .pad-panel .digital-teachers-videos .view-content > *,
     .pad-panel .expeticia-files .view-content > *  {
-        width: 47%;
-        margin: 12px 0 12px 17px;
+        width: 50%;
+        margin: 12px 0;
+        height: 330px;
+    }
+
+    .pad-panel .digital-pilos-videos .view-content > *:nth-child(2n+0),
+    .pad-panel .digital-teachers-videos .view-content > *:nth-child(2n+0),
+    .pad-panel .expeticia-files .view-content > *:nth-child(2n+0) {
+        border: none;
     }
 }
 
@@ -248,5 +265,13 @@
 @media (max-width: 991px) {
     .pad-panel .pad-main-video .view .view-content {
         margin-bottom: 45px;
+    }
+}
+
+@media (min-width: 1025px){
+    .pad-panel .digital-pilos-videos .view-content > *:nth-child(3n+0),
+    .pad-panel .digital-teachers-videos .view-content > *:nth-child(3n+0),
+    .pad-panel .expeticia-files .view-content > *:nth-child(3n+0) {
+        border: none;
     }
 }
