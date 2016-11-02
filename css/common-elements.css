@@ -381,7 +381,7 @@
 
 .pad-panel .content .pager .pager-current {
     background-color: white;
-    color: red;
+    color: #ff617a;
     width: 40px;
 }
 
@@ -389,7 +389,7 @@
 .pad-panel .content .pager .pager-previous a,
 .pad-panel .content .pager .pager-next a,
 .pad-panel .content .pager .pager-last a {
-    background: url(../images/pager-spritesheet.png);
+    background: url(../img/pager-spritesheet.png);
 }
 
 .pad-panel .content .pager .pager-first a {

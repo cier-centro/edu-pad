@@ -140,7 +140,7 @@
     width: 50px;
     top: -8px;
     position: absolute;
-    left: 25px;
+    left: 10px;
 }
 
 .pad-panel .digital-pilos-title span,
@@ -228,10 +228,6 @@
 .pad-panel .digital-teachers-videos .views-field-body-1 .field-content p,
 .pad-panel .experticia-files .views-field-body .field-content p {
     color: #86858b;
-}
-
-.pad-panel .experticia-files .views-field-body .field-content p {
-    min-height: 35px;
 }
 
 .pad-panel .digital-pilos-videos .view-content > *,
