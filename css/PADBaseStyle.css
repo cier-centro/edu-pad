@@ -246,6 +246,11 @@
     height: 320px;
 }
 
+ .pad-panel .disqus-view {
+    background: #eae8f2;
+    padding: 0 30px !important;
+}
+
 .pad-panel .experticia-files .view-content > * {
     height: 340px;
 }

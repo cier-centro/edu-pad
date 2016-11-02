@@ -111,7 +111,7 @@
 .pad-panel .main-menu .pane-content ul li a{background:none;}
 .pad-panel .main-menu .pane-content ul li a:hover{
 	text-decoration:none;
-  color:#ffffff!important;
+  color:#ffe900 !important;
 }
 .pad-panel .inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu,
 .pad-panel #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
