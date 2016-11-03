@@ -260,7 +260,7 @@
     margin: auto;
 }
 
-.pad-panel .experticia-files .views-more-link {
+.pad-panel .experticia-files .views-field-field-ruta-externa a {
     color: #ff617a;
     text-decoration: underline;
     font-weight: 700;
