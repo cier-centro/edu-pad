@@ -8,24 +8,47 @@
     padding-left:10px;
 }
 .pad-panel .content h2{
-    font-size:26px;
+    font-size: 20px;
+    color: #502280;
+    margin: 0 15px 10px;
+    font-weight: 600;
 }
 .pad-panel .content h3{
-    font-size:22px;
-    padding-left:14px;
-    color: #007C9F;
-    text-transform: uppercase;
-    font-weight: bold;
+    font-size: 18px;
+    color: #502280;
+    font-weight: normal;
+    margin: 0;
+    display: inline-block;
+    padding-right: 10px;
 }
 .pad-panel .content h4{
-  color: #007C9F;
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: bold;
+    color: #007C9F;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
 }
 .pad-panel .pad-container p{
     margin:5px 15px 20px !important;
     text-align: justify;
+}
+.pad-panel .pad-container p i{
+    color: #502280;
+    font-weight: 600;
+}
+.etdh-panel .pad-container ol{
+    counter-reset: li;
+    margin: 0 0 15px 3%;
+}
+.pad-panel .pad-container ol li::before{
+    content: counter(li)".";
+}
+.pad-panel .pad-container  ol li::before{
+    color: #502280;
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em;
+    text-align: center;
+    font-weight: 500;
 }
 .pad-panel .content p a{text-decoration: underline;}
 .pad-panel .content .callout{
