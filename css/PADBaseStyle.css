@@ -64,6 +64,17 @@
     margin: 15px 0 0;
 }
 
+.pad-panel .pad-container .first-paragraph {
+    width: 46%;
+    display: block;
+    float: left;
+}
+
+.pad-panel .pad-container .news-image {
+    min-height: 300px;
+    background: url(../img/img_news.png) transparent no-repeat center / cover !important;
+}
+
 .pad-panel .pad-vertical-menu .menu {
     background-color: white !important;
 }
@@ -335,6 +346,11 @@
 @media (max-width: 991px) {
     .pad-panel .pad-main-video .view .view-content {
         margin-bottom: 45px;
+    }
+
+    .pad-panel .pad-container .first-paragraph {
+        width: 96%;
+        margin: 0 2% !important;
     }
 }
 
