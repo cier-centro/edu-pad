@@ -48,7 +48,7 @@
     text-align: center;
     font-weight: 500;
 }
-.pad-panel .news-container ol li {
+.pad-panel .pad-container ol li {
 		counter-increment: li;
     margin: 0 15px 15px 0;
     text-align: justify;
