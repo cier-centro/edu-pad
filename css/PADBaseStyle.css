@@ -72,7 +72,8 @@
 
 .pad-panel .pad-container .news-image {
     min-height: 300px;
-    background: url(../img/img_news.png) transparent no-repeat center / cover !important;
+    background: url(../img/img_news.png) transparent no-repeat center / contain !important;
+    margin: 0 0 30px;
 }
 
 .pad-panel .pad-vertical-menu .menu {
@@ -351,6 +352,10 @@
     .pad-panel .pad-container .first-paragraph {
         width: 96%;
         margin: 0 2% !important;
+    }
+
+    .pad-panel .pad-container .news-image {
+        margin: 30px 0;
     }
 }
 
