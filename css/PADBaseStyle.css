@@ -34,7 +34,7 @@
 
 .pad-panel .pad-news label,
 .pad-panel .pad-container label,
-.pad-panel .pad-news .news-content a {
+.pad-panel .pad-news .views-more-link {
     color: #502280;
     text-decoration: underline;
 }
@@ -51,11 +51,13 @@
     font-size: 18px;
 }
 
-.pad-panel .pad-news .news-content {
+.pad-panel .pad-news p {
     margin: 5px 0px 20px 15px !important;
+    text-align: justify;
+    font-size: 13px;
 }
 
-.pad-panel .pad-news .news-content a {
+.pad-panel .pad-news .views-more-link {
     font-weight: 600;
     text-align: right;
     display: block;
