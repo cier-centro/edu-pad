@@ -14,7 +14,7 @@
     font-weight: 600;
 }
 .pad-panel .content h3{
-    font-size: 18px;
+    font-size: 16px;
     color: #502280;
     font-weight: normal;
     margin: 0;
@@ -37,18 +37,21 @@
 }
 .etdh-panel .pad-container ol{
     counter-reset: li;
-    margin: 0 0 15px 3%;
+    padding: 0 0 20px 40px;
 }
 .pad-panel .pad-container ol li::before{
     content: counter(li)".";
-}
-.pad-panel .pad-container  ol li::before{
     color: #502280;
     display: inline-block;
     width: 2em;
     margin-left: -2em;
     text-align: center;
     font-weight: 500;
+}
+.etdh-panel .news-container ol li {
+		counter-increment: li;
+    margin: 0 15px 15px 0;
+    text-align: justify;
 }
 .pad-panel .content p a{text-decoration: underline;}
 .pad-panel .content .callout{
